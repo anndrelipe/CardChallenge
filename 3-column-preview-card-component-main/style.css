@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 95%);
+    height: 100vh;
+}
+
+#container {
+    border-radius: 10px;
+    height: 500px;
+    width: 900px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 0 0 10px rgb(0,0,0,0.5);
+}
+
+#container p{
+    font-family: 'Lexend Deca', sans-serif;
+    color: hsla(0, 0%, 100%, 0.75);
+    font-size: 15px;
+}
+
+
+#cardSedan {
+    width: 250px;
+    height: 450px;
+    background-color: hsl(31, 77%, 52%);
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#cardSuvs {
+    width: 250px;
+    height: 450px;
+    background-color: hsl(184, 100%, 22%);
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+#cardLuxury {
+    width: 250px;
+    height: 450px;
+    background-color: hsl(179, 100%, 13%);
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.cardtitle {
+    font-family: 'Big Shoulders Display', cursive;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    font-size: 38px;
+    text-decoration: underline;
+}
+
+.cardicon {
+    width: 60px;
+    height: 40px;
+}
+
+.cardbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    width: 135px;
+    border-radius: 25px;
+    background-color: hsl(0, 0%, 95%) ;
+    border-style: none;
+    font-family: 'Lexend Deca', sans-serif;
+}
+
+.cardbutton:hover {
+    background-color: hsl(0, 5%, 89%) ;
+    font-weight: bold;
+}
+
+#cardLuxury .cardbutton  {
+    color: hsl(179, 100%, 13%);
+}
+
+#cardSuvs .cardbutton  {
+    color: hsl(184, 100%, 22%);
+}
+
+#cardSedan .cardbutton  {
+    color: hsl(31, 77%, 52%);
+}
+
+.space {
+    height: 1.5px;
+    width: 200px;
+    background-color: hsl(0, 5%, 89%);
+}
